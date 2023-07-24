@@ -27,7 +27,11 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Sfondo.PNG);
+    background-position: center;
+    background-size: cover;
     color: var(--text-color);
 }
 
@@ -42,12 +46,12 @@ section {
     left: 0%;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10;
 }
+
 
 .logo {
     font-size: 3.5rem;
@@ -58,9 +62,9 @@ section {
 }
 
 .navbar a {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 5rem;
     transition: .3s;
     animation: slideTop 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
@@ -78,6 +82,11 @@ section {
 }
 
 .home {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Sfondo.PNG);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +139,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--second--bg-color);
+    background: var(--bg-color);
 
 }
 
@@ -202,6 +211,7 @@ span {
 
 .servizi {
     display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(sfondo2.png);
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -232,6 +242,7 @@ span {
 
 .contatti {
     text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(sfondo3.jpg);
 }
 
 .contatti-content h1 {
